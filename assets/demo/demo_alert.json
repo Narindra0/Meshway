@@ -1,0 +1,11 @@
+{
+  "authorityId": "demo-hafatra",
+  "alertId": "demo-cyclone-001",
+  "severity": "warning",
+  "title": "Démonstration — fortes pluies à Antananarivo",
+  "body": "Ceci est une alerte de démonstration. De fortes pluies sont annoncées dans les prochaines heures. Évitez les zones basses, prévenez vos voisins et suivez les consignes des autorités.",
+  "area": "Antananarivo — quartiers denses",
+  "issuedAt": 1792389600000,
+  "expiresAt": 1924991999000,
+  "signature": "Rk+Mix7Pz9E7Ie+wpIPnDB6xi3qG1scmPcckE1cuyAriOZGQxPm3olptj/Vyj1hZIbw/U6w3+dRVFo+vk2zuBg=="
+}

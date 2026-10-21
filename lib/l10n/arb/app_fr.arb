@@ -1,0 +1,351 @@
+{
+  "@@locale": "fr",
+  "appName": "Hafatra",
+  "appTagline": "La messagerie qui marche quand le réseau tombe.",
+  "onboardingWelcomeTitle": "Bienvenue sur Hafatra",
+  "onboardingWelcomeBody": "Écrivez aux personnes autour de vous, même sans Internet et sans crédit.",
+  "onboardingFeatureOffline": "Fonctionne sans Internet",
+  "onboardingFeatureMesh": "Les messages voyagent de téléphone en téléphone",
+  "onboardingFeatureAlerts": "Alertes vérifiées par une autorité",
+  "onboardingProfileTitle": "Qui êtes-vous ?",
+  "onboardingProfileBody": "Votre nom est visible dans le salon public. Il n'est pas vérifié.",
+  "displayNameLabel": "Nom affiché",
+  "displayNameHint": "Exemple : Rasoa, Voisin A",
+  "displayNameRequired": "Entrez un nom affiché.",
+  "neighborhoodCodeLabel": "Code du quartier",
+  "neighborhoodCodeHint": "Exemple : HAFATRA",
+  "neighborhoodCodeHelp": "Les personnes qui utilisent le même code se retrouvent. Partagez-le avec vos voisins.",
+  "languageLabel": "Langue",
+  "languageFrench": "Français",
+  "languageMalagasy": "Malgache",
+  "themeLabel": "Thème",
+  "themeSystem": "Système",
+  "themeLight": "Clair",
+  "themeDark": "Sombre",
+  "continueLabel": "Continuer",
+  "backLabel": "Retour",
+  "startLabel": "Commencer",
+  "skipLabel": "Passer",
+  "permissionsTitle": "Pour que les messages passent",
+  "permissionsBody": "Hafatra utilise le Bluetooth pour parler aux téléphones proches. Aucune connexion Internet n'est nécessaire.",
+  "permissionBluetoothTitle": "Bluetooth",
+  "permissionBluetoothBody": "Chercher les téléphones proches et leur transmettre les messages.",
+  "permissionNotificationTitle": "Notifications",
+  "permissionNotificationBody": "Afficher le relais actif et les alertes importantes.",
+  "permissionBatteryTitle": "Batterie",
+  "permissionBatteryBody": "Éviter que le téléphone arrête le relais quand l'application est en arrière-plan.",
+  "permissionGranted": "Autorisé",
+  "permissionDenied": "Non autorisé",
+  "permissionOpenSettings": "Ouvrir les réglages",
+  "relayTitle": "Relais de quartier",
+  "relayBody": "Votre téléphone peut transmettre les messages des autres. Cela consomme un peu de batterie.",
+  "relayEnable": "Activer le relais",
+  "relayDisable": "Désactiver le relais",
+  "chatTitle": "Salon de quartier",
+  "navChat": "Salon",
+  "navAlerts": "Alertes",
+  "navMesh": "Maillage",
+  "navSettings": "Réglages",
+  "chatSubtitle": "Messages pour les voisins",
+  "chatEmptyTitle": "Aucun message pour le moment",
+  "chatEmptyBody": "Écrivez votre premier message. S'il n'y a personne à portée, il sera conservé et transmis dès qu'un appareil passera.",
+  "chatComposerHint": "Écrire un message…",
+  "dateToday": "Aujourd'hui",
+  "dateYesterday": "Hier",
+  "sendLabel": "Envoyer",
+  "messageTooLong": "Message trop long ({count} octets sur {max}).",
+  "messageEmpty": "Le message est vide.",
+  "statusQueued": "En attente",
+  "statusSent": "Envoyé au réseau",
+  "statusRelayed": "Relayé",
+  "statusSeen": "Vu",
+  "statusDelivered": "Livré",
+  "statusFailed": "Échec",
+  "relayedBy": "{count, plural, =0{Relayé par aucun appareil} =1{Relayé par 1 appareil} other{Relayé par {count} appareils}}",
+  "seenBy": "{count, plural, =0{Vu par personne} =1{Vu par 1 personne} other{Vu par {count} personnes}}",
+  "waitingForPeers": "En attente d'un téléphone à portée…",
+  "peersNearby": "{count, plural, =0{Aucun appareil à portée} =1{1 appareil à portée} other{{count} appareils à portée}}",
+  "meshActive": "Relais actif",
+  "meshInactive": "Relais arrêté",
+  "batteryLow": "Batterie faible",
+  "charging": "En charge",
+  "alertsTitle": "Alertes",
+  "alertsEmptyTitle": "Aucune alerte",
+  "alertsEmptyBody": "Les alertes vérifiées par une autorité de confiance apparaîtront ici.",
+  "alertVerified": "Alerte vérifiée",
+  "alertUnverified": "Alerte non vérifiée",
+  "alertExpired": "Alerte expirée",
+  "alertSeverityInfo": "Information",
+  "alertSeverityWarning": "Vigilance",
+  "alertSeverityCritical": "Urgence",
+  "alertAuthority": "Autorité : {authority}",
+  "alertExpires": "Expire le {date}",
+  "alertView": "Voir l'alerte",
+  "meshTitle": "État du maillage",
+  "meshStatus": "Statut",
+  "meshTransportBle": "Bluetooth LE",
+  "meshTransportSimulated": "Simulation",
+  "meshPeers": "Appareils à portée",
+  "meshQueue": "Messages en attente",
+  "meshSeen": "Paquets mémorisés",
+  "meshService": "Service",
+  "meshRunning": "Actif",
+  "meshStopped": "Arrêté",
+  "meshStart": "Démarrer",
+  "meshStop": "Arrêter",
+  "meshBattery": "Batterie",
+  "meshThreshold": "Seuil de relais : {percent} %",
+  "meshTest": "Tester le maillage",
+  "meshTestMessage": "Message de test",
+  "settingsTitle": "Réglages",
+  "settingsLanguage": "Langue",
+  "settingsTheme": "Thème",
+  "settingsRelay": "Relais",
+  "settingsBatteryThreshold": "Seuil de batterie",
+  "settingsDiagnostics": "Diagnostics",
+  "settingsAbout": "À propos",
+  "settingsPermissions": "Permissions",
+  "settingsVersion": "Version {version}",
+  "diagnosticsTitle": "Diagnostics",
+  "diagnosticsLogs": "Journaux",
+  "diagnosticsCopy": "Copier les journaux",
+  "diagnosticsCopied": "Journaux copiés",
+  "diagnosticsNoLogs": "Aucun journal pour le moment.",
+  "diagnosticsDevice": "Appareil : {device}",
+  "diagnosticsService": "Service : {status}",
+  "diagnosticsTransport": "Transport : {transport}",
+  "diagnosticsDatabase": "Base locale : {status}",
+  "diagnosticsDemoAlert": "Injecter une alerte de démonstration",
+  "diagnosticsDemoAlertAdded": "Alerte de démonstration ajoutée.",
+  "aboutTitle": "À propos de Hafatra",
+  "aboutBody": "Hafatra est une messagerie hors-ligne pensée pour les quartiers denses, les coupures de réseau et les téléphones d'entrée de gamme. Les messages voyagent par Bluetooth, de téléphone en téléphone.",
+  "aboutLicense": "Logiciel libre — licence MIT.",
+  "errorGeneric": "Une erreur est survenue. Réessayez.",
+  "errorStorage": "Impossible d'accéder au stockage local.",
+  "errorCrypto": "La vérification de sécurité a échoué.",
+  "errorTransport": "Le Bluetooth n'est pas disponible.",
+  "errorPermission": "Cette permission est nécessaire pour continuer.",
+  "errorValidation": "Les données saisies ne sont pas valides.",
+  "retryLabel": "Réessayer",
+  "closeLabel": "Fermer",
+  "demoModeTitle": "Mode démonstration",
+  "demoModeBody": "Utilise un réseau simulé pour découvrir l'application sans deuxième téléphone.",
+  "demoModeEnable": "Activer la simulation",
+  "publicChannelWarning": "Ce salon est public : tous les appareils à portée peuvent lire les messages. N'y mettez pas d'informations sensibles.",
+  "retentionNotice": "Les messages sont conservés 30 jours sur cet appareil.",
+  "backgroundAssistantTitle": "Garder Hafatra actif",
+  "backgroundAssistantBody": "Certains téléphones (Tecno, Infinix, Xiaomi, Samsung) arrêtent les applications en arrière-plan. Autorisez Hafatra à rester actif pour continuer à relayer.",
+  "backgroundAssistantOpenSettings": "Autoriser l'activité en arrière-plan",
+  "backgroundAssistantCheck": "Vérifier le relais",
+  "backgroundAssistantOk": "Le relais semble actif.",
+  "backgroundAssistantProblem": "Le relais est arrêté. Vérifiez les permissions et l'optimisation de batterie.",
+  "channelCode": "Code du quartier : {code}",
+  "batteryPercent": "Batterie : {percent} %",
+  "versionLabel": "Version {version}",
+  "languageChanged": "Langue mise à jour.",
+  "settingsSaved": "Réglages enregistrés.",
+  "permissionNeededTitle": "Permission nécessaire",
+  "permissionNeededBody": "Hafatra a besoin de cette permission pour relayer les messages. Vous pouvez continuer sans, mais le maillage sera limité.",
+  "notNowLabel": "Plus tard",
+  "allowLabel": "Autoriser",
+  "onboardingStep": "Étape {current} sur {total}",
+  "onboardingDemoHint": "Vous pourrez changer de mode à tout moment dans les réglages.",
+  "neighborhoodCodeTooShort": "Le code doit contenir au moins 3 caractères.",
+  "backgroundNotificationText": "Relais actif — vos messages voyagent de téléphone en téléphone.",
+  "backgroundNotificationDemoText": "Simulation active — réseau de démonstration.",
+  "demoWelcomeMessage": "Bienvenue sur Hafatra ! Ce message vient d'un voisin simulé. Écrivez pour tester le réseau.",
+  "permissionBluetoothMissing": "Autorisez le Bluetooth pour activer le relais réel.",
+  "permissionsSkipHint": "Vous pourrez autoriser ces accès plus tard dans les réglages.",
+  "sendingLabel": "Envoi…",
+  "chatYou": "Vous",
+  "chatMessageRetentionHint": "Les messages restent 30 jours sur cet appareil.",
+  "copyChannelCode": "Copier le code",
+  "channelCodeCopied": "Code du quartier copié.",
+  "meshStarting": "Démarrage…",
+  "meshStopping": "Arrêt…",
+  "meshError": "Erreur",
+  "meshUnavailable": "Indisponible",
+  "meshRefresh": "Actualiser",
+  "meshPermissionMissing": "Le Bluetooth n'est pas autorisé. Ouvrez les permissions pour démarrer le relais réel.",
+  "meshOpenPermissions": "Ouvrir les permissions",
+  "meshStartHint": "Le relais démarre automatiquement après l'introduction. Vous pouvez le relancer ici.",
+  "meshTestSent": "Message de test ajouté à la file d'envoi.",
+  "meshLastError": "Dernière erreur : {error}",
+  "meshBatteryCritical": "Relais suspendu : batterie sous le seuil.",
+  "meshDemoNotice": "Mode démonstration : les voisins, accusés et reçus sont simulés sur cet appareil.",
+  "meshThresholdHelp": "Sous ce niveau de batterie, Hafatra arrête de relayer les messages des autres.",
+  "meshStartedAt": "Actif depuis {time}",
+  "meshNoPeersHint": "Approchez un autre téléphone avec Hafatra pour créer un lien.",
+  "settingsProfile": "Profil",
+  "settingsAppearance": "Apparence",
+  "settingsMesh": "Maillage",
+  "settingsDemoMode": "Mode démonstration",
+  "settingsDemoWarning": "La simulation remplace le Bluetooth réel. Désactivez-la pour tester entre plusieurs téléphones.",
+  "settingsBatteryThresholdHelp": "Le relais s'arrête sous ce niveau de batterie, sauf si le téléphone charge.",
+  "settingsPermissionsBody": "Ces accès permettent de relayer les messages et d'afficher les alertes.",
+  "settingsOpenSystemSettings": "Ouvrir les réglages Android",
+  "settingsChangeName": "Modifier",
+  "settingsNameUpdated": "Nom mis à jour.",
+  "settingsNameDialogTitle": "Nom affiché",
+  "settingsSaveLabel": "Enregistrer",
+  "cancelLabel": "Annuler",
+  "diagnosticsSystem": "Système",
+  "diagnosticsAppVersion": "Application",
+  "diagnosticsPlatform": "Appareil",
+  "diagnosticsDatabaseOk": "Ouverte",
+  "diagnosticsDatabaseError": "Erreur",
+  "diagnosticsAlertTools": "Outils d'alerte",
+  "diagnosticsAlertRejected": "Alerte refusée : {reason}.",
+  "diagnosticsAlertAdded": "Alerte de démonstration vérifiée et diffusée.",
+  "diagnosticsLogsHint": "Les journaux ne contiennent ni contenu de message ni identité.",
+  "diagnosticsPermissions": "Permissions",
+  "alertDetailsTitle": "Détail de l'alerte",
+  "alertIssued": "Émise le {date}",
+  "alertArea": "Zone : {area}",
+  "alertSignature": "Empreinte de signature : {fingerprint}",
+  "alertDemoBadge": "Démonstration",
+  "alertDemoHint": "Une alerte de démonstration peut être injectée depuis Diagnostics.",
+  "aboutPrivacy": "Aucun contenu de message n'est envoyé à un serveur. Les identités et les clés restent sur le téléphone.",
+  "aboutOffline": "Hors-ligne d'abord, pensé pour Madagascar.",
+  "aboutPublicChannel": "Le salon de quartier est public : ne partagez pas d'informations sensibles.",
+  "unknownLabel": "Inconnu",
+  "onLabel": "Activé",
+  "offLabel": "Désactivé",
+  "serviceLabel": "Service",
+  "databaseLabel": "Base locale",
+  "refreshLabel": "Actualiser",
+  "loadingLabel": "Chargement…",
+  "notAvailableLabel": "Indisponible",
+  "alertInjectionError": "Impossible d'injecter l'alerte de démonstration.",
+  "openDiagnostics": "Ouvrir les diagnostics",
+  "errorMeshNotReady": "Le maillage n'est pas prêt. Vérifiez les permissions et redémarrez le relais.",
+  "channelLabel": "Salon : {code}",
+  "relayCounts": "Relayé par {relay} · vu par {seen}",
+  "messageStatusHint": "En attente = conservé sur ce téléphone. Envoyé = transmis à un appareil proche.",
+  "demoTag": "Démo",
+  "bleTag": "BLE",
+  "transportLabel": "Transport",
+  "@onboardingStep": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "@meshLastError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "@meshStartedAt": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "@diagnosticsAlertRejected": {
+    "placeholders": {
+      "reason": {"type": "String"}
+    }
+  },
+  "@alertIssued": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "@alertArea": {
+    "placeholders": {
+      "area": {"type": "String"}
+    }
+  },
+  "@alertSignature": {
+    "placeholders": {
+      "fingerprint": {"type": "String"}
+    }
+  },
+  "@channelLabel": {
+    "placeholders": {
+      "code": {"type": "String"}
+    }
+  },
+  "@relayCounts": {
+    "placeholders": {
+      "relay": {"type": "int"},
+      "seen": {"type": "int"}
+    }
+  },
+  "@messageTooLong": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "max": {"type": "int"}
+    }
+  },
+  "@relayedBy": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "@seenBy": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "@peersNearby": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "@alertAuthority": {
+    "placeholders": {
+      "authority": {"type": "String"}
+    }
+  },
+  "@alertExpires": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "@meshThreshold": {
+    "placeholders": {
+      "percent": {"type": "int"}
+    }
+  },
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {"type": "String"}
+    }
+  },
+  "@diagnosticsDevice": {
+    "placeholders": {
+      "device": {"type": "String"}
+    }
+  },
+  "@diagnosticsService": {
+    "placeholders": {
+      "status": {"type": "String"}
+    }
+  },
+  "@diagnosticsTransport": {
+    "placeholders": {
+      "transport": {"type": "String"}
+    }
+  },
+  "@diagnosticsDatabase": {
+    "placeholders": {
+      "status": {"type": "String"}
+    }
+  },
+  "@channelCode": {
+    "placeholders": {
+      "code": {"type": "String"}
+    }
+  },
+  "@batteryPercent": {
+    "placeholders": {
+      "percent": {"type": "int"}
+    }
+  },
+  "@versionLabel": {
+    "placeholders": {
+      "version": {"type": "String"}
+    }
+  }
+}

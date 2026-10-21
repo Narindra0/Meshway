@@ -1,0 +1,11 @@
+{
+  "authorities": [
+    {
+      "id": "demo-hafatra",
+      "name": "Autorité de démonstration (non officielle)",
+      "publicKey": "19196bbc29c77166e968255467af1ac5fc40ebc445042dd5dd8b645ab6171f98",
+      "validFrom": "2026-01-01T00:00:00.000Z",
+      "validTo": "2036-01-01T00:00:00.000Z"
+    }
+  ]
+}

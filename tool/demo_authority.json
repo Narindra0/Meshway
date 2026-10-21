@@ -1,0 +1,9 @@
+{
+  "warning": "CLÉ DE DÉMONSTRATION UNIQUEMENT. Ne jamais l’embarquer dans une application ni l’utiliser pour des alertes réelles.",
+  "id": "demo-hafatra",
+  "name": "Autorité de démonstration (non officielle)",
+  "publicKey": "19196bbc29c77166e968255467af1ac5fc40ebc445042dd5dd8b645ab6171f98",
+  "validFrom": "2026-01-01T00:00:00.000Z",
+  "validTo": "2036-01-01T00:00:00.000Z",
+  "seed": "47a0f6bf20e5300d5f5df81b6d63d7ca771f8f8b59ea0a2273f38e0a93ddab3d"
+}

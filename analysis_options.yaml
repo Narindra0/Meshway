@@ -1,0 +1,30 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.mocks.dart"
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
+
+linter:
+  rules:
+    public_member_api_docs: false
+    lines_longer_than_80_chars: false
+    avoid_redundant_argument_values: false
+    prefer_const_constructors: true
+    prefer_const_declarations: true
+    prefer_final_locals: true
+    always_use_package_imports: false
+    avoid_positional_boolean_parameters: false
+    sort_pub_dependencies: false
+
+    # Dart 3.13 autorise `new()` et les paramètres nommés privés. Hafatra garde
+    # les constructeurs explicites, plus lisibles pour une équipe élargie.
+    unnecessary_type_name_in_constructor: false
+    prefer_initializing_formals: false
